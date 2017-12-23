@@ -6,10 +6,10 @@ Primary style
 
 @font-face {
     font-family: 'Reckoner';
-    src: url('css/fonts/Reckoner.eot');
-    src: url('css/fonts/Reckoner.eot?#iefix') format('embedded-opentype'),
-        url('css/fonts/Reckoner.woff2') format('woff2'),
-        url('css/fonts/Reckoner.woff') format('woff');
+    src: url('fonts/Reckoner.eot');
+    src: url('fonts/Reckoner.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Reckoner.woff2') format('woff2'),
+        url('fonts/Reckoner.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
