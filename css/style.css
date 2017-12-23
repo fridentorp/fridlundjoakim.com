@@ -6,10 +6,10 @@ Primary style
 
 @font-face {
     font-family: 'Reckoner';
-    src: url('Reckoner.eot');
-    src: url('Reckoner.eot?#iefix') format('embedded-opentype'),
-        url('Reckoner.woff2') format('woff2'),
-        url('Reckoner.woff') format('woff');
+    src: url('css/fonts/Reckoner.eot');
+    src: url('css/fonts/Reckoner.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/Reckoner.woff2') format('woff2'),
+        url('css/fonts/Reckoner.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
@@ -113,7 +113,7 @@ Main components
 .cd-section iframe {
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 58%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
