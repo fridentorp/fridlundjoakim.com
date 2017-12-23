@@ -21,7 +21,7 @@ body {
     font-size: 100%;
     font-family: "Ubuntu", sans-serif;
     color: #3e3947;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 body,
@@ -102,7 +102,7 @@ Main components
 .cd-section iframe {
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 50%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -116,7 +116,7 @@ Main components
 }
 
 .cd-section h1 {
-    color: #f5f5f5;
+    color: white;
     top: 10%;
     font-weight: 300;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ Main components
 }
 
 .cd-section h2 {
-    color: #f5f5f5;
+    color: white;
     top: 14%;
     font-weight: 300;
     text-transform: uppercase;
@@ -134,7 +134,7 @@ Main components
 }
 
 .cd-section h3 {
-    color: #f5f5f5;
+    color: white;
     top: 14%;
     font-weight: 300;
     text-transform: uppercase;
@@ -146,21 +146,6 @@ Main components
 
 .cd-section p {
     line-height: 1.6;
-}
-
-.frontimg {
-    position: absolute;
-    left: 50%;
-    top: 14%;
-    bottom: auto;
-    right: auto;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 100%;
-    max-width: 1920px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -197,7 +182,7 @@ Main components
     bottom: 20px;
     width: 38px;
     height: 44px;
-    background: url("../img/arrow-bottom.png") no-repeat center center;
+    background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
 }
 
 /* No Touch devices */
@@ -259,7 +244,7 @@ Main components
 }
 
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 .no-touch #cd-vertical-nav .cd-dot {
@@ -269,7 +254,7 @@ Main components
     height: 18px;
     width: 18px;
     border-radius: 50%;
-    background-color: #ff4200;
+    background-color: orangered;
     -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
     -moz-transition: -moz-transform 0.2s, background-color 0.5s;
     transition: transform 0.2s, background-color 0.5s;
@@ -284,7 +269,7 @@ Main components
     position: relative;
     margin-right: 10px;
     padding: .4em .5em;
-    color: #f5f5f5;
+    color: white;
     font-size: 14px;
     font-size: 1.375rem;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
