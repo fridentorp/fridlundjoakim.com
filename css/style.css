@@ -183,7 +183,6 @@ Main components
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-
 @media only screen and (min-width: 768px) {
     .cd-section h1 {
         font-size: 30px;
@@ -204,6 +203,14 @@ Main components
         font-size: 1.25rem;
         line-height: 2;
     }
+}
+#footer {
+    font-size: 20px;
+    font-size: 0.85rem;
+    line-height: 2;
+    top: 97%;
+    left: 50%;
+    bottom: auto;
 }
 
 .cd-scroll-down {
