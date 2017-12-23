@@ -30,7 +30,7 @@ html * {
 
 body {
     font-size: 100%;
-    font-family: "Ubuntu", sans-serif;
+    font-family: sans-serif;
     color: #3e3947;
     background-color: #f5f5f5;
 }
@@ -94,7 +94,8 @@ Main components
 .cd-section h1,
 .cd-section p,
 .cd-section h2,
-.cd-section h3 {
+.cd-section h3,
+.cd-section table{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -151,11 +152,18 @@ Main components
     text-transform: uppercase;
 }
 
-}
-
 .cd-section p {
     line-height: 1.6;
+    font-family: sans-serif;
 }
+.cd-section table {
+    color: #f5f5f5;
+    top: 14%;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 
 .frontimg {
     position: absolute;
@@ -183,6 +191,21 @@ Main components
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+.about-info {
+    color: whitesmoke;
+}
+
+a:link, a:visited {
+    color: #ff4200;
+    -moz-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out; 
+}
+a:hover, a:active {
+    color: whitesmoke;
+}
+
 @media only screen and (min-width: 768px) {
     .cd-section h1 {
         font-size: 30px;
@@ -198,7 +221,7 @@ Main components
         font-size: 3.25rem;
         line-height: 2;
     }
-    .cd-section p {
+    .cd-section p, table {
         font-size: 20px;
         font-size: 1.25rem;
         line-height: 2;
