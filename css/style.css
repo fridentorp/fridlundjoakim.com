@@ -50,6 +50,10 @@ img {
     max-width: 100%;
 }
 
+td {
+    text-transform: capitalize;
+}
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
