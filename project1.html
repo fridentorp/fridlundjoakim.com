@@ -6,12 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="reset.css">
     <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Resource style -->
+    <script src="/js/modernizr.js"></script>
+    <!-- Modernizr -->
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -25,34 +26,73 @@
             <li>
                 <a href="#section1" data-number="1">
 					<span class="cd-dot"></span>
-					<span class="cd-label">Showreel</span>
+					<span class="cd-label">Trailer</span>
+				</a>
+            </li>
+            <li>
+                <a href="#section2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Animations And Rigs</span>
 				</a>
             </li>
         </ul>
     </nav>
-    <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+    <a class="cd-nav-trigger cd-img-replace"><span></span></a>
 
     <section id="section1" class="cd-section">
-        <a>
-        <img src="img/Logo.png" alt="Logo" class="frontimg">
-        </a>
+        <img src="img/logo.png" alt="Logo" class="frontimg">
+
+
+
         <iframe id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/gRQUfMK3ZSU?rel=0&showinfo=0&controls=1" frameborder="0"></iframe>
-        <p style="top: 90%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
-    </section>
-    <section id="section2" class="cd-section">
-        <iframe style="top: 35%; left: 73%;" id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/gRQUfMK3ZSU?rel=0&showinfo=0&controls=1" frameborder="0"></iframe>
-        <iframe style="top: 35%; left: 27%;" id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/gRQUfMK3ZSU?rel=0&showinfo=0&controls=1" frameborder="0"></iframe>
-        <p style="top: 70%; left: 27%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
-        <p style="top: 70%; left: 73%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
-    </section>
-    <section id="section3" class="cd-section">
-        <iframe style="top: 30%; left: 73%;" id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/gRQUfMK3ZSU?rel=0&showinfo=0&controls=1" frameborder="0"></iframe>
-        <iframe style="top: 30%; left: 27%;" id="ytplayer" type="text/html" width="853" height="480" src="https://www.youtube.com/embed/gRQUfMK3ZSU?rel=0&showinfo=0&controls=1" frameborder="0"></iframe>
-        <p style="top: 90%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
-        <p id="footer">Site content&nbsp;© Joakim Fridlund</p>
+
+
+        <a href="#section2" class="cd-scroll-down cd-img-replace image"></a>
     </section>
     <!-- cd-section -->
-    <!-- Showreel page -->
+    <!-- section1 page -->
+    <section id="section2" class="cd-section">
+        <div>
+            <video class="center" style="left: 9%; top: 12%;" type="text/html" width="360" autoplay="autoplay" loop>
+                <source src="videos/run.mp4" type="video/mp4">
+            </video>
+            <video class="center" style="left: 30%; top: 12%;" type="text/html" width="360" autoplay="autoplay" loop>
+                <source src="videos/spells.mp4" type="video/mp4">
+            </video>
+            <video class="center" style="right: 30%; top: 12%;" type="text/html" width="360" autoplay="autoplay" loop>
+                <source src="videos/melee1.mp4" type="video/mp4">
+            </video>
+            <video class="center" style="right: 9%; top: 12%;" type="text/html" width="360" autoplay="autoplay" loop>
+                <source src="videos/melee2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <img src="img/layers.png" alt="Layers" style="position: absolute;top: 48%; left: 70%; right: auto; width: 11%;">
+        </div>
+        <div>
+            <img src="img/rig.png" alt="Rig" style="position: absolute;top: 48%; left: 17%; right: auto; width: 50%;">
+        </div>
+
+        
+        <p style="top: 40%; left: 30%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
+        
+        <p style="top: 40%; left: 70%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
+        
+        <p style="top: 85%; left: 42%;">&ldquo;Animator with i special interest in the first person perspective. Currently attending The Game Assembly where I study technical art with a focus on animation and rigging.&rdquo;</p>
+        
+        <div id="Home">
+             <ul>
+                <li><a href="index.html" style="font-family: 'Reckoner'; font-size: 250%">Frontpage</a></li>
+             </ul>
+        </div>
+        
+        <p id="footer">Site content&nbsp;© Joakim Fridlund</p>
+        
+    </section>
+    <!-- cd-section -->
+    <!-- section2 page -->
+
+
 
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
